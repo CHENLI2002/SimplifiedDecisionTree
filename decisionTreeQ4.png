@@ -1,0 +1,7 @@
+graph {
+	Root [label=x2]
+	RootB [label=1]
+	Root -- RootB [label=">= 2.0"]
+	RootBA [label=1]
+	Root -- RootBA [label="< 2.0"]
+}
